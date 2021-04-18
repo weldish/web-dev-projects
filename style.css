@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body { 
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#DEDEED;
+    height:100vh;
+    text-align: center;
+}
+
+.header {
+    opacity: 0.5;
+    font-size: 55px;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.input {
+ width: 100%;
+ padding: 17px;
+ outline: none;
+}
+
+.input::placeholder{
+    color: burlywood;
+    font-size: 16px;
+}
+
+.todos {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-size: 16px;
+}
+.todos li {
+    padding: 18px;
+    border-bottom: 1px solid rgb(241, 239, 239);
+}
